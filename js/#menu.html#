@@ -1,0 +1,28 @@
+function menu(){
+<!-- メニュー -->
+var html = "";
+html += '<ul class="ddmenu">';
+https://dskjal.com/linux/keyboard-shotcuts.html  <li><a href="index.html">トップ</a></li>
+  <li><a href="physics.html">物理</a>
+    <ul>
+      <li><a href="physics/basephysics.html">基礎物理</a></li>
+      <li><a href="physics/baseexperiment.html">基礎実験</a></li>
+      <li><a href="physics/nuclear.html">原子核</a></li>
+      <li><a href="physics/gr.html">巨大共鳴</a></li>
+      <li><a href="physics/reaction.html">反応論</a></li>
+    </ul>
+  </li>
+  <li><a href="rcnp.html">RCNP関連</a>
+    <ul>
+      <li><a href="rcnp/tamiiana.html">analysis</a></li>
+      <li><a href="rcnp/ws.html">西実験室</a></li>
+    </ul>
+  </li>
+  <li><a href="acc.html">加速器</a></li>
+  <li><a href="geant.html">geant4</a></li>
+  <li><a href="book.html">本</a></li>
+  <li><a href="others.html">その他</a></li>
+  <li><a href="link.html">link</a></li>
+</ul>
+document.write(html);
+}

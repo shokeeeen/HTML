@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WS FAQ</title> <!-- タイトル -->
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/base.css"><!-- css -->
+<script src="js/MathJax-2.7.2/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script><!-- latex -->
+<meta http-equiv="X-UA-Compatible" CONTENT="IE=EmulateIE7"/><!-- Internet Explorer -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('.slider').bxSlider({
+  captions    : true,
+  auto        : true,
+  pause       : 4500
+  });
+  });
+</script>
+</head>
+
+<body bgcolor="#E6E6E6"> <!-- 背景の背景の色を指定 -->
+
+<div id="back"> <!-- 背景画像取り込み -->
+
+<div id="wrap"> 
+<div id="inner">
+
+<div id="header">
+  <h2>大阪大学核物理研究センター WS(民井)グループ</h2>
+</div><!-- header -->
+
+
+<div id="sidewrap">
+
+  <ul class="menu">
+    <li><a href="index.html">トップ</a></li>
+    <li><a href="research.html">研究内容</a></li>
+    <li><a href="achieve.html">研究成果</a></li>
+    <li><a href="member.html">メンバー</a></li>
+    <li><a href="student.html">学部生向け</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="access.html">アクセス</a></li>
+  </ul>
+
+  <br>
+  <hr>
+
+  <!-- link -->
+  <div class="link">
+    <h2>Link</h2>
+    <a href="http://www.rcnp.osaka-u.ac.jp/"><img src="img/RCNP-logo-2.jpg" width="170" alt=""></a><br>
+    <a href="http://www.osaka-u.ac.jp/"><img src="img/OU_logo_B.jpg" width="170" alt=""></a><br>
+    <a href="https://www.phys.sci.osaka-u.ac.jp/index-jp.html"><img src="img/ou-phys.gif" width="170" alt=""></a><br>
+  </div>
+
+  <hr>
+
+  <div class="address">
+    <h2>お問い合わせ</h2>
+    大阪大学 核物理研究センター<br>
+    核物理実験研究部門<br>
+    民井グループ<br><br>
+    大阪府 茨木市 美穂ケ丘10-1<br>
+    大阪大学 吹田キャンパス<br>
+    核物理研究センター<br>
+    AVF棟3階<br><br>
+    TEL : 06-6879-8857
+  </div>
+
+</div><!-- sidewrap end -->
+
+
+
+<div id="mainwrap">
+
+  <h2 class="subject">FAQ</h2>
+
+  <div class="faq">
+    
+    <h3 class="subsubject">院試について</h3>
+    <dl>
+      <dt>Q どうやって入るん？</dt>
+      <dd>A 院試で入ります。学部四年生は入れません。<br>
+	がんばって勉強しましょう。</dd>
+    </dl>
+    <dl>
+      <dt>Q 先生や学生は何人いるの？</dt>
+      <dd>A 先生はRCNP全体では20人ほど、学生は20人ほどです。</dd>
+    </dl>
+    <dl>
+      <dt>Q 原子核が専門じゃないけど、、</dt>
+      <dd>A 問題ありません。</dd>
+    </dl>
+
+    <h3 class="subsubject">RCNP全体について</h3>
+    <dl>
+      <dt>Q RCNPの構成がよくわからない、、</dt>
+      <dd>A RCNPは大きく分けて、核実験グループ、加速器グループ、理論グループの３つに分かれます。<br>
+	そのなかでも、核実験グループは最も規模の大きなグループで、さらに３つの分かれます。<br>
+	主にRCNPのホームマシンであるサイクロトロンを使って実験をする1aグループ、Spring-8やJ-PARCで高エネルギー実験を行う1bグループ、天体核物理を行う1cグループです。<br>
+	民井グループはそのうちの1aグループに属しています。我々の詳しい研究内容はこのホームページの「研究内容」のページをご覧ください。
+      </dd>
+      
+    </dl>
+    
+  </div>
+
+</div><!-- mainwrap  end -->
+
+</div><!-- inner end -->
+
+</div> <!-- wrap  end -->
+
+</div> <!-- back end -->
+
+<footer>
+  Copyright &#169; 2018 RCNP WS group, Osaka university All Rights Reserved.
+</footer>
+
+</body>
+</html>

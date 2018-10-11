@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WSメンバー</title> <!-- タイトル -->
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/base.css"><!-- css -->
+<script src="js/MathJax-2.7.2/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script><!-- latex -->
+<meta http-equiv="X-UA-Compatible" CONTENT="IE=EmulateIE7"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('.slider').bxSlider({
+  captions    : true,
+  auto        : true,
+  pause       : 4500
+  });
+  });
+</script>
+</head>
+
+<body bgcolor="#E6E6E6"> <!-- 背景の背景の色を指定 -->
+
+<div id="back"> <!-- 背景画像取り込み -->
+
+<div id="wrap"> 
+<div id="inner">
+
+<div id="header">
+  <h2>大阪大学核物理研究センター WS(民井)グループ</h2>
+</div><!-- header -->
+
+
+<div id="sidewrap">
+
+  <ul class="menu">
+    <li><a href="index.html">トップ</a></li>
+    <li><a href="research.html">研究内容</a></li>
+    <li><a href="achieve.html">研究成果</a></li>
+    <li><a href="member.html">メンバー</a></li>
+    <li><a href="student.html">学部生向け</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="access.html">アクセス</a></li>
+  </ul>
+
+  <br>
+  <hr>
+
+  <!-- link -->
+  <div class="link">
+    <h2>Link</h2>
+    <a href="http://www.rcnp.osaka-u.ac.jp/"><img src="img/RCNP-logo-2.jpg" width="170" alt=""></a><br>
+    <a href="http://www.osaka-u.ac.jp/"><img src="img/OU_logo_B.jpg" width="170" alt=""></a><br>
+    <a href="https://www.phys.sci.osaka-u.ac.jp/index-jp.html"><img src="img/ou-phys.gif" width="170" alt=""></a><br>
+  </div>
+
+  <hr>
+
+  <div class="address">
+    <h2>お問い合わせ</h2>
+    大阪大学 核物理研究センター<br>
+    核物理実験研究部門<br>
+    民井グループ<br><br>
+    大阪府 茨木市 美穂ケ丘10-1<br>
+    大阪大学 吹田キャンパス<br>
+    核物理研究センター<br>
+    AVF棟3階<br><br>
+    TEL : 06-6879-8857
+  </div>
+
+</div><!-- sidewrap end -->
+
+
+
+<div id="mainwrap">
+
+  <h2 class="subject">メンバー</h2>
+  
+  <h3 class="subsubject">2018年度のメンバー</h3>
+  
+  <table class="member">
+    <thead>
+      <h3><tr><th>職名/学年</th><th>名前</th><th>e-mail</th><th>phone</th><th>趣味</th></tr></h3>
+    </thead>
+    <tbody>
+      <tr><td>准教授</td><td><a href="http://www.rcnp.osaka-u.ac.jp/~tamii/">民井　淳</a></td><td>tamii@</td><td>8855</td><td>将棋</td></tr>
+      <tr><td>助教授</td><td><a href="">小林 信之</a></td><td>kobayash@</td><td>8857</td><td>日曜大工()</td></tr>
+      <tr><td>特任研究員</td><td><a href="">Yang Zaihong</a></td><td>zaihong@</td><td>8857</td><td>育児</td></tr>
+      <tr><td>教務補佐員</td><td><a href="">古野 達也</td><td>furuno@</a></td><td>8857</td><td>キャッチボール</td></tr>
+      <tr><td>D3</td><td><a href="">井上 梓</a></td><td>azusa@</td><td>8859</td><td>お絵描き、ドイツ語</td></tr>
+      <tr><td>M2</td><td><a href="http://www.rcnp.osaka-u.ac.jp/~shoken/">中村 翔健</a></td><td>shoken@</td><td>8859</td><td>イタリア語</td></tr>
+    </tbody>
+  </table><br><br>
+
+名前をクリックすると各個人のページにとべます。<br>
+メールアドレスは@の後ろにrcnp.osaka-u.ac.jpを付けてください。<br>
+電話番号は全て内線です。外線は、06-6879の後に各番号を押してください。<br>
+
+  <br><hr><br>
+
+  <h3 class="subsubject">卒業生</h3>
+  <ul>
+    <li>H30年度</li>
+    <ul>      
+      <li>足立 智</li>
+    </ul>
+    <li>H29年度</li>
+    <ul>      
+      <li>Agnieszka Czeszumska(Poland)</li>
+      <li>Johann Isaak(>>TUD)</li>
+    </ul>
+    <li>H28年度</li>
+    <ul>      
+      <li>伊藤</li>
+      <li>三浦</li>
+      <li>松原</li>
+    </ul>
+  </ul>
+  
+</div><!-- mainwrap  end -->
+
+</div><!-- inner end -->
+
+</div> <!-- wrap  end -->
+
+</div> <!-- back end -->
+
+<footer>
+  Copyright &#169; 2018 RCNP WS group, Osaka university All Rights Reserved.
+</footer>
+
+</body>
+</html>
